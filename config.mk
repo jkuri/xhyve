@@ -13,9 +13,9 @@ DEFINES := \
 # Toolchain                                                                   #
 ###############################################################################
 
-CC := clang
-AS := clang
-LD := clang
+CC := gcc 
+AS := gcc
+LD := gcc 
 STRIP := strip
 DSYM := dsymutil
 
